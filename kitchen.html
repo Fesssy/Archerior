@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Archerior: Kitchen Interiors</title>
+    <link rel="stylesheet" href="gallerystyle.css">
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="index.html" id="home">Home</a></li>
+        <li><a href="kitchen.html">Kitchen</a></li>
+        <li><a href="bed.html">Bed</a></li>
+        <li><a href="hall.html">Hall</a></li>
+        <li><a href="#ChildRoom">ChildRoom</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div id="mainbody">
+        <h1>Kitchen Interiors</h1>
+        <hr>
+        <button id="fullview">Full view</button>
+        <button id="gridview">Grid view</button>
+        <hr>
+        
+        <div class="grid-container">
+            <div class="img_container"><img src="images/kitchen1.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen2.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen3.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen4.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen5.png" alt=""></div>
+            <div class="img_container"><img src="images/kitchen6.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen7.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen8.jpg" alt=""></div>
+            <div class="img_container"><img src="images/kitchen9.jpg" alt=""></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("document").ready(function(){
+            $("#fullview").click(function(){
+                $(".grid-container").css("display", "block");
+                $(".img_container").animate({width: "800px", height: "400px", padding: "10px"});
+            });
+            $("#gridview").click(function(){
+                $(".grid-container").css("display", "grid");
+                $(".img_container").animate({width: "280px", height: "260px", padding: "0"});
+            });
+        });
+    </script>
+</body>
+</html>

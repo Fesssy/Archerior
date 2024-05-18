@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+	border-radius: 10px;
+}
+
+body{
+    background-color: rgb(138, 41, 52);
+	background:url("images/bg.jpg") no-repeat fixed;
+	background-size: 100% 700px;
+}
+
+.txt-shadow{
+    text-shadow: 3px 3px 5px;
+}
+
+.b-sha{
+    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.911), 5px 5px 5px rgba(179, 179, 179, 0.822) inset;
+}
+
+.account{
+    color: white;
+    top: 0%;
+    right: 0%;
+    text-decoration: underline white;
+}
+
+.outer-box{
+    position: relative;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.inner-box{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.heading{
+    width:30%; 
+    text-align: center; 
+    top: 40%; 
+    right: 20%; 
+    color: white;
+    font-size: 2em;
+}
+
+.sub-heading{
+    font-size: 20px;
+}
+
+ul.hor-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fcf6f5;
+    margin-bottom: 10px;
+}
+
+ul.hor-nav li{
+    float: left;
+}
+
+ul.hor-nav li a{
+    display: block;
+    padding: 5px;
+    color: black;
+}
+
+.left-column{
+    margin: 0;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 65%;
+    border-radius: 10px;
+    border-right: 10px double rgb(75, 75, 75);
+    border-bottom: 10px double rgb(75, 75, 75);
+	display:inline-block;
+}
+
+.right-column{
+    margin: 0;
+	margin-left: 2.5em;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 25%;
+    border-radius: 10px;
+    border-left: 10px double rgb(75, 75, 75);
+    border-top: 10px double rgb(75, 75, 75);
+	display:inline-block;
+	position:relative;
+}
+
+h1.header-content{
+    font-weight: 800;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(67, 131, 161);
+    margin-bottom: 5px;
+}
+
+img.left-double{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid darkgrey;
+    padding: 10px;
+}
+
+img.right-double{
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+
+}
+
+.content{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+	background-color: lightgrey;
+}
+
+.footer{
+	background: rgb(255,255,255,0.2);
+	border-radius: 10px;
+	border: 1px solid darkgrey;
+	text-align:center;
+	font-size: 20px;
+	margin-top:40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color:white;
+}
+
+.about{
+	background-color: white;
+	width: 60%;
+	margin: auto;
+	padding:2em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	
+}
+
+.people{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.about .content{
+	padding-bottom: 2em;
+	padding-top: 2em;
+}

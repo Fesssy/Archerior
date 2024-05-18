@@ -1,0 +1,161 @@
+body{
+    background-color: rgba(226, 226, 226, 0.705);
+}
+ul.hor-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fcf6f5;
+    margin-bottom: 10px;
+}
+
+ul.hor-nav li{
+    float: left;
+}
+
+ul.hor-nav li a{
+    display: block;
+    padding: 5px;
+    color: black;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.cover{
+    width:100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.heading{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.heading h1{
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+}
+
+.heading p{
+    padding-left: 4em;
+    padding-right: 4em;
+    text-shadow: 2px 2px black;
+}
+
+.sign-up{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+.sign-up h3{
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.sign-up a:link{
+    color: indigo;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+.founder{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    padding-bottom: 1px;
+}
+.founder img{
+    width: 100%;
+    max-width: 16em;
+    border-radius: 50%;
+}
+.founder p{
+    background-color: rgba(37, 37, 37, 0.486);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.employee, .work{
+    box-sizing: border-box;
+    display: inline-grid;
+    width: 46%;
+    min-height: 500px;
+    background-color: white;
+    margin: 1.5%;
+    border: 50px;
+    border-radius: 5px;
+    padding: 15px;
+    clear: left;
+}
+
+.employee div{
+    background-color: lightgrey;
+    overflow: hidden;
+    
+}
+.employee img{
+    width: 20%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    padding: 5px;
+}
+.employee p{
+    border-radius: 10px;
+    text-align: left;
+}
+
+.work{
+    position: relative;
+    top: 21px;
+}
+
+.review{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.review img{
+    float: left;
+    padding: 10px;
+}
+.review p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.some{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.some div{
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+    padding: 30px;
+    text-align: center;
+}
+.some img{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+}
